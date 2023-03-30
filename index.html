@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title>YOUR TITLE GOES HERE</title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-IMAGE: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNAwY4w4Gju5b9sbB4cgz2XXKLAar-iPpDCA&usqp=CAU');
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: Grey;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>Dylan's Website</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">LINK 1</a></li>
+      <li><a href="#">LINK 2</a></li>
+      <li><a href="#">LINK 3</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>FNAF World</h1>
+    <p>The main series consists of nine video games taking place in locations connected to a fictional family pizza restaurant franchise named "Freddy Fazbear's Pizza", after its mascot, the animatronic bear Freddy Fazbear. In most games, the player assumes the role of a night-time employee, who must utilize tools such as security cameras, lights, doors, and vents to defend themselves against hostile animatronic characters that inhabit the locations. The series' lore is gradually revealed through voice recordings, minigames, and Easter eggs featured throughout the games.</p>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+  <p>Dylan Espinoza Despinoza@mlrs.org</p>
+</footer>
+
+</body>
+</html>
+
+
